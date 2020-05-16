@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="calculator">
+            <div class="inputs-block">
+                <div class="input-block">
+                    <label for="number-1">Number 1</label>
+                    <input type="text" id="number-1" required />
+                </div>
+                <div class="input-block">
+                    <label for="number-2">Number 2</label>
+                    <input type="text" id="number-2" required />
+                </div>
+            </div>
+            <div class="operations-block">
+                <button id="button-plus" class="operation-buttons">+</button>
+                <button id="button-minus" class="operation-buttons">−</button>
+                <button id="button-multiply" class="operation-buttons">*</button>
+                <button id="button-divide" class="operation-buttons">/</button>
+            </div>
+            <div class="result-block">
+                <label for="number-3">Result</label>
+                <input class="input-result" type="text" id="number-3" readonly />
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
